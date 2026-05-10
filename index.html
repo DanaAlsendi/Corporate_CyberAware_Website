@@ -1,311 +1,97 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Corporate CyberAware</title>
+<!-- RESOURCES SECTION -->
+<section id="resources" class="px-10 py-16 min-h-screen flex items-center section-bg-cyan">
+    <div class="w-full">
 
-<script src="https://cdn.tailwindcss.com"></script>
-
-<style>
-    html {
-        scroll-behavior: smooth;
-    }
-
-    .soft-bg {
-        background:
-            radial-gradient(circle at top left, rgba(59, 130, 246, 0.25), transparent 35%),
-            radial-gradient(circle at top right, rgba(6, 182, 212, 0.22), transparent 30%),
-            linear-gradient(135deg, #f8fbff 0%, #eef6ff 45%, #f0fdff 100%);
-    }
-
-    .section-bg-blue {
-        background:
-            radial-gradient(circle at top right, rgba(37, 99, 235, 0.16), transparent 35%),
-            linear-gradient(135deg, #ffffff 0%, #eef6ff 100%);
-    }
-
-    .section-bg-cyan {
-        background:
-            radial-gradient(circle at bottom left, rgba(14, 165, 233, 0.18), transparent 35%),
-            linear-gradient(135deg, #effbff 0%, #f8fbff 100%);
-    }
-
-    .glass-card {
-        background: rgba(255, 255, 255, 0.82);
-        backdrop-filter: blur(12px);
-    }
-</style>
-</head>
-
-<body id="top" class="font-sans text-slate-800 soft-bg">
-
-<!-- BACK TO TOP BUTTON -->
-<a href="#top" 
-   class="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-gradient-to-br from-blue-700 to-cyan-500 text-white flex items-center justify-center text-2xl shadow-xl hover:scale-110 hover:shadow-2xl transition">
-    ↑
-</a>
-
-<div class="min-h-screen">
-
-    <!-- HEADER -->
-    <header class="bg-white/80 backdrop-blur-md shadow-md px-10 py-6 border-b border-blue-100">
-        <div class="flex items-center justify-between">
-
-            <div class="flex items-center gap-5">
-                <img src="uob-logo.png" alt="University Logo" class="w-20 h-20 object-contain">
-                <img src="logo.png" alt="Corporate CyberAware Logo" class="w-20 h-20 object-contain">
-            </div>
-
-            <div class="text-right">
-                <h1 class="text-2xl font-extrabold text-blue-800">University of Bahrain</h1>
-                <p class="text-slate-600 text-sm font-medium">College of Information Technology</p>
-                <p class="text-slate-600 text-sm font-medium">Department of Information Systems</p>
-            </div>
-
-        </div>
-    </header>
-
-    <!-- HERO SECTION -->
-    <section class="text-center px-8 py-10 min-h-screen flex items-center">
-        <div class="w-full">
-
-            <span class="inline-block bg-blue-100 text-blue-700 px-5 py-2 rounded-full text-sm font-semibold mb-5">
-                Senior Project 2025/2026
+        <div class="text-center mb-10">
+            <span class="inline-block bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-semibold mb-3">
+                Supporting materials
             </span>
+            <h2 class="text-4xl font-extrabold text-blue-800">Project Resources</h2>
+        </div>
 
-            <h2 class="text-5xl md:text-6xl font-extrabold mb-4 bg-gradient-to-r from-blue-800 via-blue-600 to-cyan-500 text-transparent bg-clip-text">
-                Corporate CyberAware
-            </h2>
+        <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
 
-            <p class="text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed font-medium">
-                A Behavior-Oriented Web-Based Cybersecurity Awareness and Assessment System for Organizations
-            </p>
+            <a href="report.pdf" target="_blank" class="bg-white p-8 rounded-3xl shadow-md border border-blue-100 hover:shadow-xl hover:-translate-y-1 transition">
+                <div class="text-3xl mb-4">📘</div>
+                <h3 class="font-bold text-blue-800">View Report</h3>
+                <p class="text-sm text-slate-600 mt-2">Open the full senior project report.</p>
+            </a>
 
-            <!-- ABSTRACT -->
-            <div class="max-w-5xl mx-auto mt-8">
-                <div class="glass-card p-6 rounded-3xl shadow-lg border border-blue-100">
-                    <h3 class="text-2xl font-bold text-blue-800 mb-3 text-center">Abstract</h3>
+            <a href="https://github.com/AnfalIsa/Corporate_Cyberaware" target="_blank" class="bg-white p-8 rounded-3xl shadow-md border border-blue-100 hover:shadow-xl hover:-translate-y-1 transition">
+                <div class="text-3xl mb-4">💻</div>
+                <h3 class="font-bold text-blue-800">GitHub Repository</h3>
+                <p class="text-sm text-slate-600 mt-2">Access the project source code repository.</p>
+            </a>
 
-                    <p class="text-slate-600 leading-relaxed text-center text-base">
-                        Corporate CyberAware is a behavior-oriented web-based cybersecurity awareness and assessment system designed to help organizations reduce human-related cybersecurity risks. Unlike traditional awareness programs that rely on one-time training, the system provides continuous assessments, phishing simulations, and performance tracking to evaluate employee behavior over time. The platform creates an interactive learning environment that strengthens cybersecurity awareness and promotes secure employee practices.
-                    </p>
-                </div>
+            <a href="poster.pdf" target="_blank" class="bg-white p-8 rounded-3xl shadow-md border border-blue-100 hover:shadow-xl hover:-translate-y-1 transition">
+                <div class="text-3xl mb-4">🖼️</div>
+                <h3 class="font-bold text-blue-800">Project Poster</h3>
+                <p class="text-sm text-slate-600 mt-2">View the project poster.</p>
+            </a>
+
+            <a href="#technology" class="bg-white p-8 rounded-3xl shadow-md border border-blue-100 hover:shadow-xl hover:-translate-y-1 transition">
+                <div class="text-3xl mb-4">🛠️</div>
+                <h3 class="font-bold text-blue-800">Technology Used</h3>
+                <p class="text-sm text-slate-600 mt-2">View the frontend, backend, and database technologies.</p>
+            </a>
+
+        </div>
+    </div>
+</section>
+
+<!-- TEAM SECTION -->
+<section id="team" class="px-10 py-16 min-h-screen flex items-center section-bg-blue">
+    <div class="w-full">
+
+        <div class="text-center mb-10">
+            <span class="inline-block bg-cyan-100 text-cyan-700 px-4 py-2 rounded-full text-sm font-semibold mb-3">
+                Project members
+            </span>
+            <h2 class="text-4xl font-extrabold text-blue-800">Meet the Team</h2>
+        </div>
+
+        <!-- SUPERVISOR -->
+        <div class="max-w-3xl mx-auto mb-10 bg-white p-8 rounded-3xl shadow-md text-center border border-blue-100">
+            <div class="w-20 h-20 bg-gradient-to-br from-blue-800 to-cyan-500 rounded-full mx-auto mb-4 flex items-center justify-center text-white text-2xl font-bold shadow-md">Dr</div>
+            <h3 class="font-bold text-blue-800 text-xl">Dr. YAQOOB SALMAN MOHAMED ALSLAIS</h3>
+            <p class="text-sm text-cyan-600 mt-1 font-medium">Project Supervisor</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+
+            <div class="bg-white p-8 rounded-3xl shadow-md text-center border border-blue-100 hover:shadow-xl hover:-translate-y-1 transition">
+                <div class="w-20 h-20 bg-gradient-to-br from-blue-600 to-cyan-400 rounded-full mx-auto mb-4 flex items-center justify-center text-white text-2xl font-bold shadow-md">A</div>
+                <h3 class="font-bold text-blue-800">Anfal Isa Alsowaileh</h3>
+                <p class="text-sm text-cyan-600 mt-1 font-medium">Team Member</p>
+                <p class="text-sm text-slate-600 mt-4">📧 anfalisa@corpcyberaware.com</p>
+                <p class="text-sm text-slate-600 mt-2">📱 +973 34515510</p>
+                <a href="Anfal Isa Alsowaileh (2).pdf" target="_blank" class="inline-block mt-5 bg-blue-700 text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-cyan-600 transition">
+                    View CV
+                </a>
             </div>
 
-            <!-- MAIN BOXES -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto mt-10">
-
-                <a href="#features" class="group glass-card p-8 rounded-3xl shadow-lg border border-blue-100 hover:shadow-2xl hover:-translate-y-2 transition">
-                    <div class="w-16 h-16 mx-auto mb-5 rounded-2xl bg-gradient-to-br from-blue-600 to-cyan-400 flex items-center justify-center text-white text-3xl shadow-md">⚙️</div>
-                    <h3 class="text-xl font-bold text-blue-800 group-hover:text-cyan-600 transition">View Features</h3>
-                    <p class="text-sm text-slate-500 mt-3">Explore the main system features and functions.</p>
+            <div class="bg-white p-8 rounded-3xl shadow-md text-center border border-blue-100 hover:shadow-xl hover:-translate-y-1 transition">
+                <div class="w-20 h-20 bg-gradient-to-br from-blue-600 to-cyan-400 rounded-full mx-auto mb-4 flex items-center justify-center text-white text-2xl font-bold shadow-md">D</div>
+                <h3 class="font-bold text-blue-800">Dana Yusuf Alsendi</h3>
+                <p class="text-sm text-cyan-600 mt-1 font-medium">Team Member</p>
+                <p class="text-sm text-slate-600 mt-4">📧 dana@corpcyberaware.com</p>
+                <p class="text-sm text-slate-600 mt-2">📱 +973 34044399</p>
+                <a href="Dana Yusuf Alsendi.pdf" target="_blank" class="inline-block mt-5 bg-blue-700 text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-cyan-600 transition">
+                    View CV
                 </a>
+            </div>
 
-                <a href="#resources" class="group glass-card p-8 rounded-3xl shadow-lg border border-blue-100 hover:shadow-2xl hover:-translate-y-2 transition">
-                    <div class="w-16 h-16 mx-auto mb-5 rounded-2xl bg-gradient-to-br from-cyan-500 to-blue-500 flex items-center justify-center text-white text-3xl shadow-md">📄</div>
-                    <h3 class="text-xl font-bold text-blue-800 group-hover:text-cyan-600 transition">View Resources</h3>
-                    <p class="text-sm text-slate-500 mt-3">Access project documents, report, and useful links.</p>
+            <div class="bg-white p-8 rounded-3xl shadow-md text-center border border-blue-100 hover:shadow-xl hover:-translate-y-1 transition">
+                <div class="w-20 h-20 bg-gradient-to-br from-blue-600 to-cyan-400 rounded-full mx-auto mb-4 flex items-center justify-center text-white text-2xl font-bold shadow-md">D</div>
+                <h3 class="font-bold text-blue-800">Duha Zuhair Isa</h3>
+                <p class="text-sm text-cyan-600 mt-1 font-medium">Team Member</p>
+                <p class="text-sm text-slate-600 mt-4">📧 duhazuhair@corpcyberaware.com</p>
+                <p class="text-sm text-slate-600 mt-2">📱 +973 39948668</p>
+                <a href="Duha cv.pdf" target="_blank" class="inline-block mt-5 bg-blue-700 text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-cyan-600 transition">
+                    View CV
                 </a>
-
-                <a href="#team" class="group glass-card p-8 rounded-3xl shadow-lg border border-blue-100 hover:shadow-2xl hover:-translate-y-2 transition">
-                    <div class="w-16 h-16 mx-auto mb-5 rounded-2xl bg-gradient-to-br from-blue-700 to-sky-400 flex items-center justify-center text-white text-3xl shadow-md">👥</div>
-                    <h3 class="text-xl font-bold text-blue-800 group-hover:text-cyan-600 transition">Meet the Team</h3>
-                    <p class="text-sm text-slate-500 mt-3">Learn more about the project team members.</p>
-                </a>
-
             </div>
 
         </div>
-    </section>
-
-    <!-- FEATURES SECTION -->
-    <section id="features" class="px-10 py-16 min-h-screen flex items-center section-bg-blue">
-        <div class="w-full">
-
-            <div class="text-center mb-10">
-                <span class="inline-block bg-cyan-100 text-cyan-700 px-4 py-2 rounded-full text-sm font-semibold mb-3">
-                    What the system provides
-                </span>
-                <h2 class="text-4xl font-extrabold text-blue-800">System Features</h2>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-
-                <div class="bg-white p-8 rounded-3xl shadow-md border-l-4 border-blue-600 hover:shadow-xl transition">
-                    <div class="text-3xl mb-4">📝</div>
-                    <h3 class="font-bold text-blue-800 mb-2">Cybersecurity Assessments</h3>
-                    <p class="text-sm text-slate-600">Allows admins to create assessments and employees to complete them.</p>
-                </div>
-
-                <div class="bg-white p-8 rounded-3xl shadow-md border-l-4 border-cyan-500 hover:shadow-xl transition">
-                    <div class="text-3xl mb-4">🧠</div>
-                    <h3 class="font-bold text-blue-800 mb-2">Behavioral Evaluation</h3>
-                    <p class="text-sm text-slate-600">Evaluates employee awareness based on answers and performance patterns.</p>
-                </div>
-
-                <div class="bg-white p-8 rounded-3xl shadow-md border-l-4 border-blue-500 hover:shadow-xl transition">
-                    <div class="text-3xl mb-4">📊</div>
-                    <h3 class="font-bold text-blue-800 mb-2">Progress Tracking</h3>
-                    <p class="text-sm text-slate-600">Tracks scores, completion rates, and improvement over time.</p>
-                </div>
-
-                <div class="bg-white p-8 rounded-3xl shadow-md border-l-4 border-cyan-500 hover:shadow-xl transition">
-                    <div class="text-3xl mb-4">🎓</div>
-                    <h3 class="font-bold text-blue-800 mb-2">Training Modules</h3>
-                    <p class="text-sm text-slate-600">Provides training content to improve cybersecurity knowledge.</p>
-                </div>
-
-                <div class="bg-white p-8 rounded-3xl shadow-md border-l-4 border-blue-600 hover:shadow-xl transition">
-                    <div class="text-3xl mb-4">💬</div>
-                    <h3 class="font-bold text-blue-800 mb-2">Admin Feedback</h3>
-                    <p class="text-sm text-slate-600">Allows admins to provide feedback based on employee results.</p>
-                </div>
-
-                <div class="bg-white p-8 rounded-3xl shadow-md border-l-4 border-cyan-500 hover:shadow-xl transition">
-                    <div class="text-3xl mb-4">🔍</div>
-                    <h3 class="font-bold text-blue-800 mb-2">Reports and Insights</h3>
-                    <p class="text-sm text-slate-600">Generates useful insights about organizational awareness.</p>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- RESOURCES SECTION -->
-    <section id="resources" class="px-10 py-16 min-h-screen flex items-center section-bg-cyan">
-        <div class="w-full">
-
-            <div class="text-center mb-10">
-                <span class="inline-block bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-semibold mb-3">
-                    Supporting materials
-                </span>
-                <h2 class="text-4xl font-extrabold text-blue-800">Project Resources</h2>
-            </div>
-
-            <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
-
-                <a href="#" target="_blank" class="bg-white p-8 rounded-3xl shadow-md border border-blue-100 hover:shadow-xl hover:-translate-y-1 transition">
-                    <div class="text-3xl mb-4">📘</div>
-                    <h3 class="font-bold text-blue-800">View Report</h3>
-                    <p class="text-sm text-slate-600 mt-2">Open the full senior project report from Google Drive.</p>
-                </a>
-
-                <a href="https://github.com/AnfalIsa/Corporate_Cyberaware" target="_blank" class="bg-white p-8 rounded-3xl shadow-md border border-blue-100 hover:shadow-xl hover:-translate-y-1 transition">
-                    <div class="text-3xl mb-4">💻</div>
-                    <h3 class="font-bold text-blue-800">GitHub Repository</h3>
-                    <p class="text-sm text-slate-600 mt-2">Access the project source code repository.</p>
-                </a>
-
-                <a href="#" target="_blank" class="bg-white p-8 rounded-3xl shadow-md border border-blue-100 hover:shadow-xl hover:-translate-y-1 transition">
-                    <div class="text-3xl mb-4">🖼️</div>
-                    <h3 class="font-bold text-blue-800">Project Poster</h3>
-                    <p class="text-sm text-slate-600 mt-2">View the project poster from Google Drive.</p>
-                </a>
-
-                <a href="#technology" class="bg-white p-8 rounded-3xl shadow-md border border-blue-100 hover:shadow-xl hover:-translate-y-1 transition">
-                    <div class="text-3xl mb-4">🛠️</div>
-                    <h3 class="font-bold text-blue-800">Technology Used</h3>
-                    <p class="text-sm text-slate-600 mt-2">View the frontend, backend, and database technologies.</p>
-                </a>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- TECHNOLOGY USED SECTION -->
-    <section id="technology" class="px-10 py-16 min-h-screen flex items-center section-bg-blue">
-        <div class="w-full">
-
-            <div class="text-center mb-10">
-                <span class="inline-block bg-cyan-100 text-cyan-700 px-4 py-2 rounded-full text-sm font-semibold mb-3">
-                    Development tools
-                </span>
-                <h2 class="text-4xl font-extrabold text-blue-800">Technology Used</h2>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-
-                <div class="bg-white p-8 rounded-3xl shadow-md border-l-4 border-blue-600">
-                    <div class="text-3xl mb-4">🎨</div>
-                    <h3 class="text-xl font-bold text-blue-800 mb-4">Frontend</h3>
-                    <p class="text-lg font-medium text-slate-600 leading-relaxed">
-                        HTML5<br>
-                        CSS Tailwind<br>
-                        JavaScript
-                    </p>
-                </div>
-
-                <div class="bg-white p-8 rounded-3xl shadow-md border-l-4 border-cyan-500">
-                    <div class="text-3xl mb-4">⚙️</div>
-                    <h3 class="text-xl font-bold text-blue-800 mb-4">Backend</h3>
-                    <p class="text-lg font-medium text-slate-600 leading-relaxed">
-                        Python Flask<br>
-                        Chatbase
-                    </p>
-                </div>
-
-                <div class="bg-white p-8 rounded-3xl shadow-md border-l-4 border-blue-600">
-                    <div class="text-3xl mb-4">🗄️</div>
-                    <h3 class="text-xl font-bold text-blue-800 mb-4">Database</h3>
-                    <p class="text-lg font-medium text-slate-600 leading-relaxed">
-                        MySQL
-                    </p>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- TEAM SECTION -->
-    <section id="team" class="px-10 py-16 min-h-screen flex items-center section-bg-blue">
-        <div class="w-full">
-
-            <div class="text-center mb-10">
-                <span class="inline-block bg-cyan-100 text-cyan-700 px-4 py-2 rounded-full text-sm font-semibold mb-3">
-                    Project members
-                </span>
-                <h2 class="text-4xl font-extrabold text-blue-800">Meet the Team</h2>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
-
-                <div class="bg-white p-8 rounded-3xl shadow-md text-center border border-blue-100 hover:shadow-xl hover:-translate-y-1 transition">
-                    <div class="w-20 h-20 bg-gradient-to-br from-blue-600 to-cyan-400 rounded-full mx-auto mb-4 flex items-center justify-center text-white text-2xl font-bold shadow-md">A</div>
-                    <h3 class="font-bold text-blue-800">Anfal Isa Alsowaileh</h3>
-                    <p class="text-sm text-cyan-600 mt-1 font-medium">Team Member</p>
-                    <p class="text-sm text-slate-600 mt-4">📧 anfalisa@corpcyberaware.com</p>
-                    <p class="text-sm text-slate-600 mt-2">📱 +973 34515510</p>
-                </div>
-
-                <div class="bg-white p-8 rounded-3xl shadow-md text-center border border-blue-100 hover:shadow-xl hover:-translate-y-1 transition">
-                    <div class="w-20 h-20 bg-gradient-to-br from-blue-600 to-cyan-400 rounded-full mx-auto mb-4 flex items-center justify-center text-white text-2xl font-bold shadow-md">D</div>
-                    <h3 class="font-bold text-blue-800">Dana Yusuf Alsendi</h3>
-                    <p class="text-sm text-cyan-600 mt-1 font-medium">Team Member</p>
-                    <p class="text-sm text-slate-600 mt-4">📧 dana@corpcyberaware.com</p>
-                    <p class="text-sm text-slate-600 mt-2">📱 +973 34044399</p>
-                </div>
-
-                <div class="bg-white p-8 rounded-3xl shadow-md text-center border border-blue-100 hover:shadow-xl hover:-translate-y-1 transition">
-                    <div class="w-20 h-20 bg-gradient-to-br from-blue-600 to-cyan-400 rounded-full mx-auto mb-4 flex items-center justify-center text-white text-2xl font-bold shadow-md">D</div>
-                    <h3 class="font-bold text-blue-800">Duha Zuhair Isa</h3>
-                    <p class="text-sm text-cyan-600 mt-1 font-medium">Team Member</p>
-                    <p class="text-sm text-slate-600 mt-4">📧 duhazuhair@corpcyberaware.com</p>
-                    <p class="text-sm text-slate-600 mt-2">📱 +973 39948668</p>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer class="bg-gradient-to-r from-blue-800 to-cyan-600 text-white text-center py-5">
-        <p class="text-sm font-medium">
-            © 2026 Corporate CyberAware | University of Bahrain
-        </p>
-    </footer>
-
-</div>
-
-</body>
-</html>
+    </div>
+</section>
